@@ -6,17 +6,17 @@ const router = express.Router();
 router.post('/signup', async (req, res) => {
 const { username, password } = req.body;
 
-  // Check if user already exists and handle password encryption etc...
+  // Checks if user already exists and handle password encryption etc...
 });
 
 router.post('/login', async (req, res) => {
 const { username, password } = req.body;
 
-  // Handle user authentication...
+  // Handles user authentication...
 });
 
 router.get('/logout', (req, res) => {
-  // Handle user logout...
+  // Handles user logout...
 });
 
 module.exports = router;
